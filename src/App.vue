@@ -1,6 +1,16 @@
 <template>
   <div id="app">
-    <h1>我是初始化页面</h1>  
+    <ul>
+      <li>
+        <router-link to="/fruits">水果</router-link> 
+      </li>
+      <li>
+        <router-link to="/vegetables">蔬菜</router-link> 
+      </li>
+    </ul>
+    <div class="show-area">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
